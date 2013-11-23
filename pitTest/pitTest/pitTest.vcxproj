@@ -78,6 +78,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bibliothek.cpp" />
+    <ClCompile Include="Faktoren.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bibliothek.h" />
+    <ClInclude Include="Faktoren.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
